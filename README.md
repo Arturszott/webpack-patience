@@ -7,5 +7,42 @@ Reduce the feeling of slow compilation by providing great meaningful quote to th
 
 [![Build Status](https://travis-ci.org/Arturszott/webpack-patience.svg?branch=master)](https://travis-ci.org/Arturszott/webpack-patience)
 
-Getting Started
+Instalation
 ---
+
+In your webpack config you have to add a plugin to the configuration:
+
+```
+if (environment === 'dev') {
+    config.plugins.push(new WebpackQuotesPlugin({ notifications: true }));
+} 
+```
+
+Configuration
+---
+
+Plugin is instantiated by default with the following config which can be overwritten:
+
+```
+{
+    notifications: false,
+    additionalQuotes: []
+    secondsToApology: 20
+}
+```
+
+Every additional quote should be listed in the following structure:
+
+```
+{
+    "text": "“quote text”",
+    "author": "quote author"
+}
+```
+
+Contributions
+---
+
+If you have some more ideas how we can enrich the experience you're welcome to create the PR.
+
+Have a nice day!
