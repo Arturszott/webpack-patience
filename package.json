@@ -13,6 +13,7 @@
     "url": "git@github.com:arturszott/webpack-quotes.git"
   },
   "devDependencies": {
+    "sinon": "^1.17.4",
     "tap-spec": "^2.1.2",
     "tape": "^3.0.3"
   },
