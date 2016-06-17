@@ -1,4 +1,4 @@
-Webpack quotes module
+Webpack Quotes plugin
 ===
 
 Reached already the maximum speed of webpack? Try psychology.
