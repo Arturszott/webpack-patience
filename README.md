@@ -5,6 +5,8 @@ Reached already the maximum speed of webpack? Try psychology.
 
 Reduce the feeling of slow compilation by providing great meaningful quote to think about.
 
+![Image of Webpack Quote](/assets/quote.png)
+
 [![Build Status](https://travis-ci.org/Arturszott/webpack-patience.svg?branch=master)](https://travis-ci.org/Arturszott/webpack-patience)
 
 Instalation
@@ -30,6 +32,11 @@ Plugin is instantiated by default with the following config which can be overwri
     secondsToApology: 20
 }
 ```
+
+Parameter `secondsToApology` will be used to provide a time point after which webpack will add an apology for the long build.
+
+![Image of Webpack Apology](/assets/ready.png)
+
 
 Every additional quote should be listed in the following structure:
 

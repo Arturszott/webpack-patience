@@ -3,7 +3,7 @@
   "description": "Webpack plugin for reducing compilation time impatience",
   "homepage": "https://github.com/arturszott/webpack-quotes",
   "author": "Artur Szott",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "test": "tape tests/*.js | tap-spec"
