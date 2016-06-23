@@ -7,7 +7,7 @@ Reduce the feeling of slow compilation by providing great meaningful quote to th
 
 ![Image of Webpack Quote](/assets/quote.png)
 
-[![Build Status](https://travis-ci.org/Arturszott/webpack-patience.svg)](https://travis-ci.org/Arturszott/webpack-patience)
+[![Build Status](https://travis-ci.org/Arturszott/webpack-quotes.svg)](https://travis-ci.org/Arturszott/webpack-quotes)
 
 Instalation
 ---
